@@ -1,5 +1,5 @@
 const translationMap = {
-    "قرآني": "Qurany",
+    "آياتي": "Ayati",
     "القراء": "Reciters",
     "السور": "Surahs",
     "مساعدك الذكي": "Smart Assistant",
@@ -43,7 +43,7 @@ const translationMap = {
     "الرئيسية": "Home",
     "المفضلة": "Favorites",
     "المساعد": "Assistant",
-    "ثبّت تطبيق قرآني": "Install Qurany App",
+    "ثبّت تطبيق آيآتي": "Install Ayati App",
     "استمتع بتجربة أفضل واستمع للقرآن حتى بدون إنترنت": "Enjoy a better experience and listen without internet",
     "تثبيت": "Install",
     "لاحقاً": "Later",
@@ -171,7 +171,7 @@ const translationMap = {
     "حدث خطأ في جلب البيانات.": "Error fetching data.",
     "تعذر الاتصال بالخادم.": "Connection error.",
     "عذراً، المتصفح لا يدعم تحديد الموقع.": "Browser doesn't support geolocation.",
-    "تطبيق قرآني - تجربة إيمانية متكاملة": "Qurany App - An integrated faith experience",
+    "تطبيق آيآتي - تجربة إيمانية متكاملة": "Ayati App - An integrated faith experience",
     "آية من القرآن الكريم": "Ayah from the Holy Quran",
     "فشل التحميل": "Download failed",
     "المشاركة غير مدعومة في متصفحك، يمكنك حفظ الصورة بدلاً من ذلك.": "Sharing not supported in your browser, you can save the image instead."

@@ -501,7 +501,7 @@ document.addEventListener('DOMContentLoaded', () => {
             navigator.mediaSession.metadata = new MediaMetadata({
                 title: surah.name,
                 artist: reciter.name,
-                album: 'تطبيق قرآني',
+                album: 'تطبيق آياتي',
                 artwork: [
                     { src: brandedArtworkUrl, sizes: '512x512', type: 'image/png' },
                     { src: appIconUrl, sizes: '512x512', type: 'image/png' }
@@ -562,13 +562,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 ctx.drawImage(img, 256 - 105, 180 - 105, 210, 210);
                 ctx.restore();
 
-                // نكتب اسم التطبيق "قرآني" بخط عريض
+                // نكتب اسم التطبيق "آياتي" بخط عريض
                 ctx.fillStyle = '#ffffff';
                 ctx.textAlign = 'center';
                 ctx.font = '900 60px Tajawal, sans-serif';
                 ctx.shadowColor = 'rgba(0,0,0,0.2)';
                 ctx.shadowBlur = 15;
-                ctx.fillText('قرآني', 256, 380);
+                ctx.fillText('آياتي', 256, 380);
 
                 // ونكتب اسم القارئ تحتيه بقارئ أصغر شوية
                 ctx.font = '500 35px Tajawal, sans-serif';
@@ -1372,7 +1372,7 @@ document.addEventListener('DOMContentLoaded', () => {
         downloadCardBtn.addEventListener('click', () => {
             const dataUrl = shareCanvas.toDataURL('image/png');
             const link = document.createElement('a');
-            link.download = `qurany-ayah-${Date.now()}.png`;
+            link.download = `ayati-ayah-${Date.now()}.png`;
             link.href = dataUrl;
             link.click();
         });
@@ -1388,7 +1388,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     await navigator.share({
                         files: [file],
                         title: t('آية من القرآن الكريم'),
-                        text: t('تطبيق قرآني - تجربة إيمانية متكاملة')
+                        text: t('تطبيق آياتي - تجربة إيمانية متكاملة')
                     });
                 } catch (err) {
                     console.error('Share failed:', err);
@@ -1911,7 +1911,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ctx.fillStyle = '#2c3e50';
         ctx.textAlign = 'center';
         ctx.font = '700 45px Amiri, serif';
-        ctx.fillText('تطبيق قرآني', W / 2, brandY + 110);
+        ctx.fillText('تطبيق آياتي', W / 2, brandY + 110);
 
         let fontSize = 70;
         const textMaxWidth = cardW - 120;
@@ -1962,7 +1962,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         ctx.fillStyle = 'rgba(26, 188, 156, 0.7)';
         ctx.font = '600 32px Outfit, sans-serif';
-        ctx.fillText('ralball74.github.io/qurany.assem', W / 2, H - 100);
+        ctx.fillText('ralball74.github.io/ayati', W / 2, H - 100);
 
         // تحديث المعاينة بصورة عالية الجودة
         const image = new Image();

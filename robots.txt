@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ralball74.github.io/qurany.assem/sitemap.xml
+Sitemap: https://ralball74.github.io/ayati/sitemap.xml
