@@ -1,6 +1,6 @@
 {
-    "name": "ayati",
-    "short_name": "ayati",
+    "name": "Ayati",
+    "short_name": "Ayati",
     "description": "تطبيق متكامل لاستماع القرآن الكريم بأصوات مشاهير القراء مع ميزات ذكية",
     "start_url": "../index.html",
     "display": "standalone",
